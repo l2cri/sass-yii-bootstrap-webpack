@@ -1,0 +1,9 @@
+{
+  "manifest": {
+    "js": "js/manifest.js"
+  },
+  "bootstrap": {
+    "js": "js/bootstrap.js",
+    "css": "css/bootstrap.css"
+  }
+}

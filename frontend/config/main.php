@@ -36,14 +36,30 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
             ],
         ],
-        */
+        'assetManager' => [
+            'bundles' => [
+                'yii\bootstrap\BootstrapAsset' => [
+                    'sourcePath' => null,
+                    'basePath' => '@frontend',
+                    'baseUrl' => '@web',
+                    'css' =>  [],
+                    'js' => []
+                ],
+                'yii\bootstrap\BootstrapPluginAsset' => [
+                    'sourcePath' => null,
+                    'basePath' => '@frontend',
+                    'baseUrl' => '@web',
+                    'css' =>  [],
+                    'js' => []
+                ],
+            ],
+        ],
     ],
     'params' => $params,
 ];

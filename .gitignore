@@ -33,3 +33,7 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+# nodejs
+/node_modules
+/frontend/assets/webpack/dist

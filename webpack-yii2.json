@@ -1,0 +1,21 @@
+{
+    "sourceDir": "frontend\/assets\/webpack",
+    "entry": {
+         "bootstrap": "./bootstrap.js"
+    },
+    "commonBundles": [
+        "manifest"
+    ],
+    "externals": {},
+    "alias": {
+    },
+    "subDirectories": {
+        "sources": "src",
+        "dist": "dist"
+    },
+    "assets": {
+        "styles": "css",
+        "scripts": "js"
+    },
+    "catalog": "assets-catalog.json"
+}
